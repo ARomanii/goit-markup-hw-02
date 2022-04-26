@@ -5,20 +5,25 @@
 }
 
 body {
-    font-family: 'Roboto',
-    sans-serif;
+    font-family: 'Roboto' ,sans-serif;
     background-color: #ffffff;
     color: var(--title-text-color);
+    letter-spacing: 0.03em;
 }
 
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
 
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway' ,sans-serif;;
     font-size: 26px;
     line-height: 1.9;  
-    letter-spacing: 0.03em;
-
-}
+    }
  
 .logo-web {
     color: var(--accent-color);
@@ -37,6 +42,7 @@ body {
 .site-nav,
 .site-nav a {
     color: var(--title-text-color);
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
@@ -48,14 +54,19 @@ body {
     color: var(--accent-color);
 }
 
-/* Стилизация главной страницы сайта */
+/*-------- Стилизация главной страницы сайта ----------*/
 
-.hero-tittle {
+.hero {
     background-color: #2F303A;
     color: #FFFFFF;
+}
 
+.hero-tittle {
+    font-family: 'Roboto';
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    text-transform: uppercase;
 }
 
 .hero-button {
@@ -64,7 +75,7 @@ body {
     line-height: 1.87;
 }
 
-/* Стилизация заголовка h2 */
+/*-------------------- Стилизация заголовка h2 -------------------*/
 
 .privilege,
 .about,
@@ -72,7 +83,7 @@ body {
     color: #212121;
 }
 
-/* Стилизация заголовка р */
+/*----------------- Стилизация заголовка р ------------------*/
 
 .privilege p,
 .about p,
@@ -80,29 +91,26 @@ body {
     color: var(--primary-text-color);
 }
 
-/* Стилизация привилегии */
+/*---------------------- Стилизация привилегии -----------------*/
 .privilege-tittle {
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
 }
 
 .privilege p {
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
-/* Стилизация чем мы занимаемся */
+/*----------------- Стилизация чем мы занимаемся ------------------*/
 
 .about h2 {
     font-size: 36px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
 }
 
 
-/* Стилизация блока команда */
+/*---------------------- Стилизация блока команда --------------------*/
 
 .team {
     background: #F5F4FA;
@@ -111,13 +119,11 @@ body {
 .team h2 {
     font-size: 36px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
 }
 
 .team h3 {
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
 .team p {
@@ -125,7 +131,7 @@ body {
     line-height: 1.19;
 }
 
-/* Стилизация кнопок портфолио */
+/*------------------- Стилизация кнопок портфолио ---------------------*/
 .portfolio-button {
     background: #F5F4FA;
     color: var(--title-text-color);
@@ -140,7 +146,7 @@ body {
     background: var(--accent-color);
 }
 
-/* Стилизация секции портфолио */
+/*------------------ Стилизация секции портфолио ---------------------*/
 
 .portfolio-list .list-about {
     color: var(--primary-text-color);
@@ -155,9 +161,8 @@ body {
 .list-about {
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
 }
-/* Стилизация футера */
+/*--------------------- Стилизация футера --------------------------*/
 
 .footer {
     background-color: #2F303A;
@@ -178,4 +183,8 @@ body {
 .footer-list .nav:hover,
 .footer-list .nav:focus {
     color: var(--accent-color);
+}
+
+address {
+    font-style: normal;
 }
