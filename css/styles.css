@@ -22,16 +22,17 @@ body {
 .logo {
     font-family: 'Raleway' ,sans-serif;;
     font-size: 26px;
-    line-height: 1.9;  
+    line-height: 1.9;
+    color: inherit;
     }
  
 .logo-web {
     color: var(--accent-color);
 }
 
-.logo-studio {
+ /* .logo-studio { 
     color: var(--title-text-color);
-}
+} */
 
 .logo-footer {
     color: #ffffff
@@ -62,11 +63,33 @@ body {
     color: var(--accent-color);
 }
 
+/* ---------Прячем заголовки-------------------------- */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /*-------- Стилизация главной страницы сайта ----------*/
 
 .hero {
     background-color: #2F303A;
     color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .hero-tittle {
@@ -88,7 +111,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
