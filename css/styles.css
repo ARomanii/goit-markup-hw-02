@@ -84,12 +84,7 @@ body {
 .hero {
     background-color: #2F303A;
     color: #FFFFFF;
-    font-family: 'Roboto';
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
     text-align: center;
-    letter-spacing: 0.06em;
 }
 
 .hero-tittle {
@@ -98,24 +93,25 @@ body {
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 
 .hero-button {
-width: 200px;
-height: 50px;
-left: 700px;
-top: 430px;
-background: var(--accent-color);
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-cursor: pointer;
-color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: var(--accent-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: #FFFFFF;
 }
 
 
@@ -193,6 +189,12 @@ color: #FFFFFF;
     color: #ffffff;
 }
 
+.portfolio-title {
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+
 /*------------------ Стилизация секции портфолио ---------------------*/
 
 .portfolio-list .list-about {
@@ -221,6 +223,11 @@ color: #FFFFFF;
 
 .footer-list .nav {
     color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list {
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .footer:hover,
